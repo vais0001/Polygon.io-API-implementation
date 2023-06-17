@@ -1,7 +1,7 @@
 function getStockData() {
     const stockInput = document.getElementById("stockInput");
     const stockSymbol = stockInput.value;
-    const apiKey = "YOUR API KEY"; //Replace the placeholder with your own API key
+    const apiKey = "dAC3tSWtiFqlCp41aXuplSDoNlc40Qgs";
     const url = `https://api.polygon.io/v1/open-close/${stockSymbol}/2023-01-09?adjusted=true&apiKey=${apiKey}`;
   
     fetch(url)
